@@ -36,6 +36,32 @@
 
     // Strings on my own
 
+    console.log("Using functions:");
+
+    function makeSquare(theNumb) {
+    let squared = theNumb * theNumb;
+    return squared;
+    }
+    let try01 = makeSquare(3);
+    console.log(try01);
+
+    // Functions on my own
+
+    console.log("function to add name")
+    // function to add names
+    function makeName(theNumb) {
+      let fullName = firstName + " " + middleName + " " +lastName;
+      return fullName
+    }
+    firstName = "Robert"
+    middleName = '"Beto"'
+    lastName = "O'Rourke"
+
+    let fullName = firstName + " " + middleName + " " +lastName;
+
+    let try02 = makeName();
+    console.log(try02)
+
   </script>
 </body>
 </html>
