@@ -47,36 +47,20 @@
 
     // Functions on my own
 
-    console.log("function to add name")
+    console.log("function to make name")
+
     // function to add names
-    function makeName(theNumb) {
-      let fullName = firstName + " " + middleName + " " +lastName;
-      return fullName
-    }
-    firstName = "Robert"
-    middleName = '"Beto"'
-    lastName = "O'Rourke"
-
+    function makeName(firstName, middleName, lastName) {
     let fullName = firstName + " " + middleName + " " +lastName;
-
-    let name01 = makeName();
-    console.log(name01)
-
-    firstName = "John"
-    middleName = "F."
-    lastName = "Kennedy"
-
-    let name02 = makeName();
-    console.log(name02)
-
-    firstName = "Sarah"
-    middleName = "Jessica"
-    lastName = "Parker"
-
-    let name03 = makeName();
-    console.log(name03)
-
+    return fullName
+    }
     
+    console.log("Robert", '"Beto"', "O'Rourke")
+    console.log("Sarah", "Jessica", "Parker")
+    console.log("John", "F.", "Kennedy")
+
+
+
 
   </script>
 </body>
